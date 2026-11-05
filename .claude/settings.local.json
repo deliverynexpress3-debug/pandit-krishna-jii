@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node --input-type=module -e 'import\\(\"./src/data/booking.js\"\\).then\\(m=>{const B=m.BOOKING;B.steps.forEach\\(\\(s,i\\)=>console.log\\(i+1,\"|\",s.icon,\"|\",s.hi,\"|\",s.descHi\\)\\);console.log\\(\"eyebrow:\",B.hi.eyebrow,\"| title:\",B.hi.title\\);}\\)')"
+    ]
+  }
+}
